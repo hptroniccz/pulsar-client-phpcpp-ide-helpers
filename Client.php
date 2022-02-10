@@ -4,7 +4,7 @@ namespace Pulsar;
 
 class Client
 {
-    public function __construct($serviceUrl)
+    public function __construct($serviceUrl, ?ClientConfiguration $configuration = null)
     {
     }
 
